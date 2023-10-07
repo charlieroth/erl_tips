@@ -1,9 +1,3 @@
-erl_tips
-=====
+# `erl_tips`
 
-An OTP application
-
-Build
------
-
-    $ rebar3 compile
+Repository of Erlang implementations of [akoutmos](https://twitter.com/akoutmos) Elixir Tips tweets

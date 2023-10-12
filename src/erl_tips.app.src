@@ -7,9 +7,13 @@
    [kernel,
     stdlib
    ]},
-  {env,[]},
+  {env,[
+    {
+        production_only_server, 
+        {start_process, true}
+    }
+  ]},
   {modules, []},
-
   {licenses, ["Apache-2.0"]},
   {links, []}
  ]}.
